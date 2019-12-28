@@ -1,0 +1,39 @@
+/*partials--- is used to divide one big css file into multiple file so that we  can have variables at one file and 
+ fonts at one file and so on.. just to split up*/
+.btn {
+  display: inline-block;
+  padding: 4px 15px;
+  text-align: center;
+  border-radius: 4px;
+  border-color: #00CCCD;
+  color: #2B2B52;
+  font-size: 15px;
+  background-color: #00CCCD;
+}
+
+html {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.5)), to(rgba(0, 0, 0, 0.9))), url("images/bg_cover.jpg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.5), rgba(0, 0, 0, 0.9)), url("images/bg_cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body h1 {
+  color: #00CCCD;
+  margin-top: 5%;
+  font-size: 3rem;
+  margin-left: 5%;
+}
+
+body p {
+  font-size: 1.4rem;
+  color: #EAF0F1;
+  margin-left: 5%;
+}
+
+.container {
+  margin-left: 5%;
+}
+/*# sourceMappingURL=about.css.map */

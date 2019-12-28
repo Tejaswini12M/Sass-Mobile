@@ -1,0 +1,38 @@
+/*partials--- is used to divide one big css file into multiple file so that we  can have variables at one file and 
+ fonts at one file and so on.. just to split up*/
+
+ //modularity means we can copy code from one file to other and import that file in current file and it should work.
+
+ //if you keep '_' file name it will not get compiled to css. by css compiler
+
+ @import "mixin"; //no need to mention '_' & .scss
+ @import "btn";
+
+ html{
+     height:100vh;
+    @include coverimage('images/bg_cover.jpg');
+ }
+
+ body{
+     h1{
+         color:#00CCCD;
+         margin-top:5%;
+         font-size: 3rem;
+         margin-left:5%;
+     }
+     p{
+        font-size:1.4rem;
+        color:#EAF0F1;
+        margin-left:5%;
+     }
+  
+ }
+
+ .container{
+     margin-left: 5%;
+ }
+
+//  .btn-funds{
+//      @extend %btn;
+//  }
+
